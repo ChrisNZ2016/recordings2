@@ -4,7 +4,7 @@ status: backlog
 created: 2025-10-16T03:42:31Z
 progress: 0%
 prd: .claude/prds/meeting-recorder.md
-github: [Will be updated when synced to GitHub]
+github: https://github.com/ChrisNZ2016/recordings2/issues/1
 ---
 
 # Epic: meeting-recorder
@@ -269,18 +269,18 @@ High-level implementation tasks (≤10 total):
 
 ## Tasks Created
 
-- [ ] 001.md - Database Setup & Schema (parallel: false)
-- [ ] 002.md - Authentication System (parallel: true)
-- [ ] 003.md - CloudMailin Webhook & iCal Parsing (parallel: false)
-- [ ] 004.md - recall.ai Integration (parallel: false)
-- [ ] 005.md - Transcript Webhook Handler (parallel: false)
-- [ ] 006.md - Dashboard UI & Meeting List (parallel: false)
-- [ ] 007.md - Transcript Detail View (parallel: false)
-- [ ] 008.md - AI Summarization Feature (parallel: false)
-- [ ] 009.md - Error Handling & Logging (parallel: true)
-- [ ] 010.md - Deployment & Configuration (parallel: false)
+- [ ] #4 - Database Setup & Schema (parallel: false)
+- [ ] #7 - Authentication System (parallel: true)
+- [ ] #8 - CloudMailin Webhook & iCal Parsing (parallel: false)
+- [ ] #9 - recall.ai Integration (parallel: false)
+- [ ] #2 - Transcript Webhook Handler (parallel: false)
+- [ ] #3 - Dashboard UI & Meeting List (parallel: false)
+- [ ] #5 - Transcript Detail View (parallel: false)
+- [ ] #6 - AI Summarization Feature (parallel: false)
+- [ ] #10 - Error Handling & Logging (parallel: true)
+- [ ] #11 - Deployment & Configuration (parallel: false)
 
 **Total tasks**: 10
-**Parallel tasks**: 2 (002, 009)
+**Parallel tasks**: 2 (7, 10)
 **Sequential tasks**: 8
 **Estimated total effort**: 176-256 hours (4-6 weeks at 40 hours/week)
