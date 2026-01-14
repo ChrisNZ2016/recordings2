@@ -1,6 +1,14 @@
 {
-  "buildCommand": "cd recording2 && npm run build",
-  "devCommand": "cd recording2 && npm run dev",
-  "installCommand": "cd recording2 && npm install",
-  "outputDirectory": "recording2/.next"
+  "builds": [
+    {
+      "src": "recording2/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "recording2/$1"
+    }
+  ]
 }
