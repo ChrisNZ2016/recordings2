@@ -1,6 +1,6 @@
 {
   "buildCommand": "cd recording2 && npm run build",
   "devCommand": "cd recording2 && npm run dev",
-  "installCommand": "npm install",
+  "installCommand": "cd recording2 && npm install",
   "outputDirectory": "recording2/.next"
 }
